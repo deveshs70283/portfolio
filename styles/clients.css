@@ -1,0 +1,19 @@
+.clients{
+    max-width: 1200px;
+    margin: auto;
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.clients img{
+    height: 100px;
+    margin: 0px 30px;
+    opacity: 50%;
+}
+
+@media screen and (max-width: 768px) {
+    .clients img {
+        max-height: 70px; /* Smaller logos for mobile devices */
+        margin:15px; /* Smaller margin for mobile devices */
+    }
+}
